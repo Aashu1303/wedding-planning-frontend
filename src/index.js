@@ -10,8 +10,8 @@ root.render(
     <AuthContextProvider>
       <SearchContextProvider>
         <App />
-        </SearchContextProvider>
+      </SearchContextProvider>
     </AuthContextProvider>
-    
+
   </React.StrictMode>
 );
