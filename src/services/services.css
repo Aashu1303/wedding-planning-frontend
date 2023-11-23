@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+}
+
+.services {
+  text-align: center;
+}
+
+.services h1 {
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #ff5733; /* Change color to your preference */
+  font-size: 24px; /* Adjust font size */
+  padding-bottom: 12px; /* Adjust padding */
+  margin-top: 40px;
+}
+
+.cen {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 30px; /* Adjust padding */
+}
+
+.service {
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 0 2px; /* Adjust margin */
+  padding: 25px; /* Adjust padding */
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #f2f2f2; /* Change background color to your preference */
+  border: 1px solid #ccc; /* Change border color to your preference */
+  border-radius: 8px; /* Adjust border radius */
+}
+
+.service:hover {
+  background: #ddd;
+}
+
+.service i {
+  color: #ff5733; /* Change color to your preference */
+  font-size: 40px; /* Adjust font size */
+  margin-bottom: 20px; /* Adjust margin */
+}
+
+.service h2 {
+  font-size: 20px; /* Adjust font size */
+  text-transform: uppercase;
+  font-weight: 600; /* Adjust font weight */
+  margin: 10px 0; /* Adjust margin */
+}
+
+.service p {
+  color: #666; /* Change color to your preference */
+  font-size: 16px; /* Adjust font size */
+  font-weight: 500;
+}
+
+.homebtn {
+  margin-top: 30px;
+  background-color: #333; /* Change background color to your preference */
+  padding: 15px 40px; /* Adjust padding */
+  text-decoration: none;
+  color: #fff;
+  font-size: 22px; /* Adjust font size */
+  letter-spacing: 1.2px; /* Adjust letter spacing */
+}
+
+.homebtn:hover {
+  background-color: #5a5a5a; /* Change background color to your preference */
+  color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .service {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .service {
+    width: 100%;
+  }
+}
