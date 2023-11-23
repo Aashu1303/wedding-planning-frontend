@@ -7,29 +7,29 @@ import Footer from "../../components/footer/footer.jsx";
 
 
 const Home = () => {
-   
-    
 
 
-    return(
-        
+
+
+    return (
+
         <div class="home">
-            <Navbar/>
-            <Header/>
+            <Navbar />
+            <Header />
             <div className="homeContainer">
-            
-            <br></br>
-            <h1 className="homeTitle">Popular Halls</h1>
-            <FeaturedProperties/>
-            <br></br>
-            
-            
+
+                <br></br>
+                <h1 className="homeTitle">Popular Halls</h1>
+                <FeaturedProperties />
+                <br></br>
+
+
             </div>
 
             <Footer />
-            
+
         </div>
-        
+
     )
 }
 
