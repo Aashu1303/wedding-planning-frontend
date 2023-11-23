@@ -24,7 +24,6 @@ import Listcity from "./pages/listcity/Listcity1";
 import Listcity1 from "./pages/listcity/Listcity1";
 import Listcity2 from "./pages/listcity/Listcity2";
 import Listcity3 from "./pages/listcity/Listcity3";
-import slider from "./pages/slider/Slider";
 import Slider from "./pages/slider/Slider";
 
 
