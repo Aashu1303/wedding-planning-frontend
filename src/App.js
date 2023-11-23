@@ -1,5 +1,5 @@
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
   Route,
 } from "react-router-dom";
@@ -52,7 +52,3 @@ function App() {
 
     </BrowserRouter>
 
-  );
-}
-
-export default App;
