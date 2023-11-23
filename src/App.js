@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import {
+=======
+import{
+>>>>>>> c1f8125443a6be91ff18ba7c85a99c86bc1329fd
   BrowserRouter,
   Routes,
   Route,

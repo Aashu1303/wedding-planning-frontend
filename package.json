@@ -11,7 +11,10 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
+<<<<<<< HEAD
     "@vercel/analytics": "^1.1.1",
+=======
+>>>>>>> c1f8125443a6be91ff18ba7c85a99c86bc1329fd
     "axios": "^1.1.3",
     "bootstrap": "^5.2.2",
     "date-fns": "^2.29.3",
