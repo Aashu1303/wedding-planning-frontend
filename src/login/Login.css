@@ -1,0 +1,96 @@
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f4f3;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("mandap7.jpg");
+  }
+  
+  .contentArea {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 70vh;
+    
+  }
+  
+  .left {
+    background-color: #06a7f8;
+    width: 60%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  .left h1 {
+    font-weight: bold;
+  }
+  
+  .left p {
+    font-weight: 300;
+  }
+  
+  .left button {
+    width: 100%;
+    padding: 15px;
+    background: transparent;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  .right {
+    background-color: white;
+    width: 80%;
+    height: 150%;
+    display: flex;
+    margin-left: 720px;
+    flex-direction: column;
+    text-align: center;
+    padding: 150px;
+    
+  }
+  
+  .right h1 {
+    color: #000501;
+    font-weight: bold;
+    text-transform: capitalize;
+    width: 200%;
+  }
+  
+  .right p {
+    font-weight: 300;
+    margin: 15px 0 20px 0;
+  }
+  
+  Form {
+    width: 100%;
+  }
+  
+  .right button {
+    background-color: #5b20dc;
+    width: 50%;
+    color: white;
+    padding: 15px;
+    border-radius: 0px;
+    font-size: 20px;
+    border: 1px solid #4808f8;
+    outline: none;
+    transition: all 0.4s ease;
+  }
+  
+  .right button:hover {
+    background-color: #fff;
+    color: #3ab19b;
+    border: 1px solid #3ab19b;
+  }
+ 
